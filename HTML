@@ -8,8 +8,13 @@
 
     <!-- FONT AWESOME KIT -->
     <script src="https://kit.fontawesome.com/7f94cc61a0.js" crossorigin="anonymous"></script>
+    
+    <!-- FANCYBOX CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    
     <!-- Custom css  -->
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
+
 
 </head>
 
@@ -139,14 +144,14 @@
 
     <section id="portfolio">
         <div class="portfolio-items">
-            <a href="./Img/portfolio-item-1.jpg" class="portfolio-item portfolio-item-1"><span>&#9741;</span></a>
-            <a href="./Img/portfolio-item-2.jpg" class="portfolio-item portfolio-item-2"><span>&#9741;</span></a>
-            <a href="./Img/portfolio-item-3.jpg" class="portfolio-item portfolio-item-3"><span>&#9741;</span></a>
-            <a href="./Img/portfolio-item-4.jpg" class="portfolio-item portfolio-item-4"><span>&#9741;</span></a>
-            <a href="./Img/portfolio-item-5.jpg" class="portfolio-item portfolio-item-5"><span>&#9741;</span></a>
-            <a href="./Img/portfolio-item-6.jpg" class="portfolio-item portfolio-item-6"><span>&#9741;</span></a>
-            <a href="./Img/portf olio-item-7.jpg" class="portfolio-item portfolio-item-7"><span>&#9741;</span></a>
-            <a href="./Img/portfolio-item-8.jpg" class="portfolio-item portfolio-item-8"> <span>&#9741;</span> </a>
+            <a href="./Img/portfolio-item-1.jpg" data-fancybox="gallery" class="portfolio-item portfolio-item-1"><span>&#9741;</span></a>
+            <a href="./Img/portfolio-item-2.jpg" data-fancybox="gallery" class="portfolio-item portfolio-item-2"><span>&#9741;</span></a>
+            <a href="./Img/portfolio-item-3.jpg" data-fancybox="gallery" class="portfolio-item portfolio-item-3"><span>&#9741;</span></a>
+            <a href="./Img/portfolio-item-4.jpg" data-fancybox="gallery" class="portfolio-item portfolio-item-4"><span>&#9741;</span></a>
+            <a href="./Img/portfolio-item-5.jpg" data-fancybox="gallery" class="portfolio-item portfolio-item-5"><span>&#9741;</span></a>
+            <a href="./Img/portfolio-item-6.jpg" data-fancybox="gallery" class="portfolio-item portfolio-item-6"><span>&#9741;</span></a>
+            <a href="./Img/portfolio-item-7.jpg" data-fancybox="gallery" class="portfolio-item portfolio-item-7"><span>&#9741;</span></a>
+            <a href="./Img/portfolio-item-8.jpg" data-fancybox="gallery" class="portfolio-item portfolio-item-8"> <span>&#9741;</span> </a>
         </div>
     </section>
 
@@ -209,7 +214,7 @@
                 <div class="latest-posts">
                     <div class="blog-post">
                         <h4>Post Title 1</h4>
-                        <p>is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        <p class="blog-yazı">is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
                         </p>
                         <a href="#">Read More >></a>
                         <div class="post-meta">
@@ -222,7 +227,7 @@
                     </div>
                     <div class="blog-post">
                         <h4>Post Title 2</h4>
-                        <p>is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        <p class="blog-yazı">is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
                         </p>
                         <a href="#">Read More >></a>
                         <div class="post-meta">
@@ -236,10 +241,9 @@
                 </div>
                 <div class="blog-info">
                     <h2 class="vertical-title vertical-title-right">THE BLOG</h2>
-                    <div class="team-detail">
+                    <div class="blog-detail">
                         <h2 class="horizontal-title light-color">FROM US</h2>
-                        <p>I work to help people on the website and you can be sure that I will do my job competently.I
-                            will prove to you my expertise in websites.See you again when the site is complete.</p>
+                        <p class="blog-yazı">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, dignissimos architecto. Voluptates soluta adipisci enim dolor quod repellat cupiditate possimus, eaque, rerum suscipit facere natus maxime! Adipisci commodi voluptates a!</p>
             
                     </div>
                 </div>
@@ -251,15 +255,15 @@
 
     <!-- Contact Section-->
 
-    <section id="contant">
+    <section id="contact">
         <div class="container">
             <div class="contact-content">
-                 <h2>PLEASE CONTACT TOXİC.</h2>
+                 <h2 class="contact-title">PLEASE CONTACT TOXİC</h2>
                  <form>
                      <input class="name" type="text" placeholder="TOXİC">
                      <input class="email" type="em ail" placeholder="Toxic@gmail.com">
                      <textarea class="message" placeholder="toxic the message"></textarea>
-                     <button class="btn-general">Send</button>
+                     <button class="btn-general btn-light">Send</button>
                  </form> 
             </div>
         </div>
@@ -300,6 +304,19 @@
     </footer>
 
     <!-- END FOOTER Section-->
+
+    <!-- JQUERY -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+ 
+    <!-- FANYBOX JS -->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
+    <!-- CUSTOM JS -->
+
+    <script src="./js/script.js"></script>
+
 </body>
 
 </html>
