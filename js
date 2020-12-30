@@ -1,3 +1,25 @@
+/* RESPONSIVE NAV MENU */
+
+const navMenu = () => {
+    const navbarToggler = document.querySelector('.navbar-toggler')
+    const nav = document.querySelector('.nav')
+
+    navbarToggler.addEventListener('click', () => {
+        nav.classList.togglee('nav-active');
+        navbarToggler.classList.toggle('toggle');
+    })
+};
+
+navMenu();
+
+
+
+
+
+
+
+
+
 /* SCROLL REVEAL ANİMATİONS  */
 
 ScrollReveal().reveal('.ani-left', {
